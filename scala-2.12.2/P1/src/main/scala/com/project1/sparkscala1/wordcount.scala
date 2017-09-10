@@ -9,6 +9,8 @@ object wordcount {
   {
     val conf= new SparkConf().setAppName("First").setMaster("local")
     val sc = new SparkContext(conf)
+    
+    val a=1
   }
   
 }
